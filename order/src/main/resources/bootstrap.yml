@@ -1,0 +1,15 @@
+server:
+  port: 8081
+spring:
+  application:
+    name: order-service
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 192.168.88.66:8849
+        cluster-name: guangzhou
+      config:
+        server-addr: 192.168.88.66:8849
+        file-extension: yml
+        username: nacos
+        password: nacos

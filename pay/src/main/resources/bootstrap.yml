@@ -1,0 +1,28 @@
+server:
+  port: 8082
+spring:
+  application:
+    name: pay
+  cloud:
+    nacos:
+
+      discovery:
+        server-addr: 192.168.88.66:8849
+        cluster-name: guangzhou
+
+      config:
+        server-addr: 192.168.88.66:8849
+        file-extension: yml
+
+
+
+
+
+
+
+#
+#    loadbalancer:
+#      configurations: round-robin  # 可选：random, same-instance等
+#      enabled: true
+#      nacos:
+#        enabled: false
