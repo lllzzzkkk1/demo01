@@ -23,9 +23,9 @@ public class TestController {
         //获取服务端口
         String port = applicationContext.getEnvironment().getProperty("server.port");
 
+        System.out.println("1223123434");
+        System.out.println(12133);
         return "order 被调用的服务端口"+port;
-
-
 
     }
 }
